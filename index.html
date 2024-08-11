@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+      
+    <script src="https://kit.fontawesome.com/cf349c4729.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+    <!--Navbar-->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="#" class="logo">
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <!--------------------------home------------------->
+      
+        <div class="header-text">
+          <p>Full Stack Developer</p>
+          <h1>Hi, I'm <span>Akash Sivakumar </span><br>From Tiruppur</h1>
+  
+        </div> 
+      </div>
+
+    </div>
+
+    
+      
+      
+      
+    
+    <!-------------about------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/akbckrnd.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Greetings! I'm Akash Sivakumar pursuing BTech Artificial Intelligence and Data science in erode sengunthar engineering college .My journey as engineering student is been fascinating exploration of many technologies that makes the universe fully automated.In my professional  quest ,I've honed my skills in HTML,CSS,Java,Bootstrap,React,Java Script,Node JS,SQl,DOM Manipulation these skills leveraging them to create websites ,webapplications,Ecommerce sites,social apps etc..I believe in the power of  hard work that will get us to reach pur dreams.I strive to bring to get ethos into every project i undertake. </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                          <ul>
+                            <li><span>HTML/CSS/JavaScript</span><br>Designing web app application</li>
+                            <li><span>Java</span><br>Using java for backend and application development</li>
+                            <li><span>Python</span><br>Integration of Machine Learning and data processing </li>
+                          </ul>
+
+                        </div>
+                        <div class="tab-contents" id="experience">
+                          <ul>
+                            <li><span>Kaar Tech</span><br>SAP consultant intern at Kaar tech </li>
+                            <li><span>Pan Tech Solution</span><br>Machine Learning intern at pantech solutions for one weak</li>
+                           
+                          </ul>
+
+                        </div>
+                        <div class="tab-contents" id="education">
+                          <ul>
+                            <li><span>BTech-Artificial Intelligence & Data Science</span><br>Erode sengunthar engineering college - Perundurai <br>CGPA: 8.03(upto 4th semester) <br>2021 - 2025</li>
+                            <li><span>HSC</span><br>Annai Matricultion Higher Secondary School - Tiruppur <br>Percentage: 86.4 <br>2020 - 2021</li>
+                            <li><span>SSLC</span><br>Annai Matricultion Higher Secondary School - Tiruppur<br>Percentage: 84.6 <br>2018 - 2019</li>
+                          </ul>
+
+                        </div>
+                        
+
+                </div>
+            </div>
+        </div>
+
+    </div> 
+
+    <!------------service--------------------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web designing</h2>
+             <p>Web development is a dynamic field, and professionals in this space often collaborate in cross-functional teams to create innovative, user-friendly, and secure web solutions. Whether it's a simple static website or a complex web application, web development plays a crucial role in shaping the digital landscape</p>
+             <a href="#">learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>Ui/UX Design</h2>
+             <p>UI/UX design is a multidisciplinary field that involves both creative and analytical thinking. A successful UI/UX design not only looks visually appealing but also ensures a seamless and delightful experience for users. It involves an ongoing process of research, design, testing, and refinement to create products that meet user needs and expectations.</p>
+             <a href="#">learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App development</h2>
+             <p>Mobile app development is a dynamic field, and developers often stay updated with the latest tools, frameworks, and best practices. Successful app development requires collaboration between developers, designers, and other stakeholders to create a product that meets both user needs and business goals.</p>
+             <a href="#">learn more</a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!----------------portfolio---------------------------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>Social media applications include Facebook, Instagram, Twitter, LinkedIn, Snapchat, and TikTok. Social media has evolved into a powerful tool for communication, information sharing, and community building, playing a significant role in shaping online and offline interactions. The success of social media applications often relies on their ability to provide engaging, personalized, and secure experiences for users.</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+            </div>
+
+          </div>
+          <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>Music apps include Spotify, Apple Music, Amazon Music, Deezer, and YouTube Music. These apps have transformed the way people consume and interact with music, providing a convenient and personalized experience for users worldwide.</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+            </div>
+
+          </div>
+          <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+              <h3>Ecommerce App</h3>
+              <p>E-commerce apps include Amazon, eBay, Shopify, Alibaba, and Flipkart. E-commerce apps have revolutionized the retail industry, providing users with the convenience of shopping from anywhere at any time and offering businesses new avenues for reaching a global customer base</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+            </div>
+
+          </div>
+
+        </div>
+        <a href="#" class="btn">See more</a>
+
+      </div>
+    </div>
+    <!--------------------------contact------------------------------->  
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>sivaakash1977@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>+91 8220885886</p>
+            <div class="social-icons">
+            <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+            <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="https://www.instagram.com/sivaakash_03/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/akash-sivakumar-14655b247/"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="images/Akash s resume.pdf" download class="btn btn2">Download CV</a>
+
+
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your email" required>
+              <textarea name="Message"   rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+
+          </div>
+
+        </div>
+      
+
+      </div>
+      <div class="copyright">
+        <p>copyright © Akash Sivakumar.Made With <i class="fas fa-heart"></i> 2023</p>
+
+      </div>
+
+    </div> 
+
+
+
+    <script>
+      
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }  
+    </script>
+  
+ 
+
+
+    
+    
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxypdP1y3TnF7KA5ww3T6D1ul2fX-o0wKUfn56zJ_OWWFM4JzlGIcxwtfmU-2dgR-7djA/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },1000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+<script>
+
+  var sidemenu = document.getElementById("sidemenu");
+
+  function openmenu(){
+    sidemenu.style.right = "0";
+  }
+  function closemenu(){
+    sidemenu.style.right = "-200px";
+    
+  }
+
+
+</script>
+</body>
+</html
